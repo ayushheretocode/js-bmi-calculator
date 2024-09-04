@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="top-text">BMI Calculator</h1>
+        <div class="weight">
+            <span>Enter Weight in kg:</span>
+            <input type="number" id="weight-in-kg">
+        </div>
+        <div class="height">
+            <span>Enter Height in cm:</span>
+            <input type="number" id="height-in-cm">
+        </div>
+        <button id="calc-btn">Calculate</button>
+        <h2 id="bmi"></h2>
+        <div class="guide-section">
+            <h3 id="bmi-weight-guide">BMI Weight Guide</h3>
+            <ul id="guide-list">
+                <li class="guide-list-item">Less than 18.6 - Underweight</li>
+                <li class="guide-list-item">Between 18.6 and 24.9 - Healthy</li>
+                <li class="guide-list-item">Greater than 24.9 - Overweight</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
